@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>משעמם לי</title>
+
+    <link rel="stylesheet" href="boredApp.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <div class="header">
+            <span class="sparkle">✦</span>
+
+            <h1>משעמם לי</h1>
+
+            <p>בואי נמצא לך משהו כיפי לעשות ✨</p>
+        </div>
+
+        <section class="card">
+            <div class="energy-title">
+                כמה אנרגיה יש לך?
+            </div>
+
+            <div class="energy-levels">
+
+                <button class="energy active" data-energy="low">
+                    🪫 אין לי כוח
+                </button>
+
+                <button class="energy" data-energy="medium">
+                    🙂 סבבה
+                </button>
+
+                <button class="energy" data-energy="high">
+                    ⚡ יש לי אנרגיה
+                </button>
+
+            </div>
+            <div class="category-title">
+                מה בא לך?
+            </div>
+
+            <div class="categories">
+
+                <button class="category active" data-category="all">
+                    ✨ הכל
+                </button>
+
+                <button class="category" data-category="creative">
+                    🎨 יצירה
+                </button>
+
+                <button class="category" data-category="music">
+                    🎵 מוזיקה
+                </button>
+
+                <button class="category" data-category="productive">
+                    🧹 מועיל
+                </button>
+
+                <button class="category" data-category="chill">
+                    ☕ צ'יל
+                </button>
+
+            </div>
+
+            <div class="activity-box">
+
+                <div id="activityIcon">✨</div>
+
+                <div id="result">
+                    מוכנה?
+                </div>
+
+                <div id="hint">
+                    לחצי על הכפתור ותני לי להחליט בשבילך
+                </div>
+
+            </div>
+
+            <button id="boredButton" class="main-button">
+                <span>תני לי משהו לעשות</span>
+                <span>→</span>
+            </button>
+
+            <button id="skipButton" class="skip-button">
+                לא בא לי, תני משהו אחר
+            </button>
+
+        </section>
+
+        <div class="footer">
+            Made for moments of boredom ✦
+        </div>
+
+    </main>
+
+    <script src="boredApp.js"></script>
+
+</body>
+
+</html>
